@@ -1,8 +1,8 @@
-<br />
-<div align="center">
+<h1>README</h1>
+    <div align="center">
     <img src="assets/media/logo.png" alt="Logo" width="80" height="80">
   </div>
-
+</br>
 Benvenuto/a alla pagina del progetto di Java Script Basics per Start2Impact University!
 
 ## Lo scopo del progetto
@@ -43,3 +43,10 @@ Per semplificare il conteggio, ho aggiunto un campo che calcola di quanti punti 
 Chiaramente, questo è stato un esercizio per il progetto di studio di S2i, mentre per quanto riguarda la generazione delle caratteristiche del personaggio, si possono implementare altre idee, sicuramente dopo il prossimo modulo riuscirò ad avere altri spunti per migliorarne codice e funzionalità!
 
 Un saluto e .. roll the dices!
+
+## Dove testare il progetto
+
+Il progetto è visionabile qui:
+
+<a href = "https://mommottistudios.github.io/project-s2i-java-basics/index.html">https://mommottistudios.github.io/project-s2i-java-basics/index.html
+
