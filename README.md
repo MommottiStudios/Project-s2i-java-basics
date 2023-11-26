@@ -1,4 +1,11 @@
+<br />
+<div align="center">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </div>
+
 Benvenuto/a alla pagina del progetto di Java Script Basics per Start2Impact University!
+
+## Lo scopo del progetto
 
 Questo progetto consiste nella creazione di un counter, in cui vengono implementati con Javascript:
 - il tasto +
@@ -8,6 +15,8 @@ Questo progetto consiste nella creazione di un counter, in cui vengono implement
 Essendo io un roleplayer, ho sempre pensato che sarebbe stata una ottima idea avere la possibilità di avere un generatore di caratteristiche per la creazione di un personaggio di Dungeons and Dragons di primo livello.
 
 Ho unito questa idea alla creazione del progetto, per cui ho implementato la richiesta del progetto con questa mia "esigenza" da gamer", anche per creare un qualcosa di diverso e contemporaneamente utile e sfidante.
+
+## La personalizzazione in tema gaming
 
 In questa personalizzazione del progetto iniziale ho operato i seguenti cambiamenti:
 - al posto del valore iniziale di 0, ho impostato, per fini di game, un valore di 10.
