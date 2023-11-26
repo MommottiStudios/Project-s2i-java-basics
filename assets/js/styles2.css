@@ -1,0 +1,183 @@
+.ability-container {
+    display: grid;
+    grid-template-columns: repeat(54, 1fr);
+    grid-template-rows: repeat(16, 0.2fr) repeat(4, 1fr);
+    gap: 15% 0px;
+    justify-self: center;
+  }
+  
+  .strenght {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0px 0px;
+    grid-area: 2 / 2 / 10 / 10;
+    background-color: aqua;
+    justify-self: center;
+  }
+  
+  .strenght_roll { grid-area: 2 / 3 / 3 / 7; }
+  
+  .strenght_value { grid-area: 4 / 3 / 7 / 7; 
+  border: 1px solid black;
+  }
+  
+  .more_strenght { grid-area: 6 / 2 / 7 / 3; 
+  justify-self: center;
+  }
+  
+  .less_strenght { grid-area: 6 / 7 / 7 / 8; 
+  justify-self: center;
+  }
+  
+  .strenght_cost { grid-area: 8 / 3 / 9 / 7; 
+  border: 1px solid black;
+  }
+  
+  .text_strenght_cost { grid-area: 7 / 3 / 8 / 7; }
+  
+  .dexterity {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0px 0px;
+    grid-area: 2 / 11 / 10 / 15;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dexterity_roll { grid-area: 2 / 3 / 3 / 7; }
+  
+  .dexterity_value { grid-area: 4 / 3 / 7 / 7; 
+  border: 1px solid black;
+  }
+  
+  .more_dexterity { grid-area: 6 / 2 / 7 / 3; }
+  
+  .less_dexterity { grid-area: 6 / 7 / 7 / 8; }
+ 
+  .dexterity_cost { grid-area: 8 / 3 / 9 / 7;
+  border: 1px solid black;
+  }
+  
+  .text_dexterity_cost { grid-area: 7 / 3 / 8 / 7; }
+  
+  .constitution {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0px 0px;
+    grid-area: 2 / 20 / 10 / 28;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .constitution_roll { grid-area: 2 / 3 / 3 / 7; }
+  
+  .constitution_value { grid-area: 4 / 3 / 7 / 7; }
+  
+  .less_constitution { grid-area: 6 / 2 / 7 / 3; }
+  
+  .more_constitution { grid-area: 6 / 7 / 7 / 8; }
+  
+  .constitution_cost { grid-area: 8 / 3 / 9 / 7; }
+  
+  .texy_constitution_cost { grid-area: 7 / 3 / 8 / 7; }
+  
+  .intelligence {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0px 0px;
+    grid-area: 2 / 29 / 10 / 37;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intelligence_roll { grid-area: 2 / 3 / 3 / 7; }
+  
+  .intelligence_value { grid-area: 4 / 3 / 7 / 7; }
+  
+  .less_intelligence { grid-area: 6 / 2 / 7 / 3; }
+  
+  .more_intelligence { grid-area: 6 / 7 / 7 / 8; }
+  
+  .intelligence_cost { grid-area: 8 / 3 / 9 / 7; }
+  
+  .text_intelligence_cost { grid-area: 7 / 3 / 8 / 7; }
+  
+  .wisdom { 
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0px 0px;
+    grid-area: 2 / 38 / 10 / 46;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wisdom_roll { grid-area: 2 / 3 / 3 / 7; }
+  
+  .wisdom_value { grid-area: 4 / 3 / 7 / 7; }
+  
+  .less_wisdom { grid-area: 6 / 2 / 7 / 3; }
+  
+  .more_wisdom { grid-area: 6 / 7 / 7 / 8; }
+  
+  .wisdom_cost { grid-area: 8 / 3 / 9 / 7; }
+  
+  .text_wisdom_cost { grid-area: 7 / 3 / 8 / 7; }
+  
+  .charisma { 
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0px 0px;
+    grid-area: 2 / 47 / 10 / 55;
+    background-color: aqua;
+            align-items: center;
+        justify-content: center;
+  }
+  
+  .charisma_roll { grid-area: 2 / 3 / 3 / 7; }
+  
+  .charisma_value { grid-area: 4 / 3 / 7 / 7; }
+  
+  .less_charisma { grid-area: 6 / 2 / 7 / 3; }
+  
+  .more_charisma { grid-area: 6 / 7 / 7 / 8; }
+  
+  .charisma_cost { grid-area: 8 / 3 / 9 / 7; }
+  
+  .text_charisma_cost { grid-area: 7 / 3 / 8 / 7; }
+
+  
+  .text_strenght { grid-area: 1 / 2 / 2 / 10; 
+  justify-self: center;
+  }
+  
+  .text_dexterity { grid-area: 1 / 11 / 2 / 15; 
+  justify-self: center;
+  }
+  
+  .text_constitution { grid-area: 1 / 20 / 2 / 28;
+  justify-self: center;
+  }  
+  
+  .text_intelligence { grid-area: 1 / 29 / 2 / 37; 
+  justify-self: center;
+  }
+  
+  .text_wisdom { grid-area: 1 / 38 / 2 / 46; 
+  justify-self: center;
+  }
+  
+  .text_charisma { grid-area: 1 / 47 / 2 / 55; 
+  justify-self: center;
+  }
+  
+  

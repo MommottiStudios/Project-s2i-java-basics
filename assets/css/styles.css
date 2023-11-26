@@ -1,0 +1,428 @@
+* {
+  border:0; 
+  font-family: 'Alike', serif;
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.container {  
+    display: grid;
+    grid-template-columns: 20fr repeat(58, 1fr) 20fr;
+    grid-template-rows: repeat(15, 1fr) repeat(10 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    width: 100%;
+    height: 100%;
+  }
+
+  .button_roll {
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    grid-area: 4 / 2 / 6 / 8;
+    cursor: pointer;
+    font-family: 'Alike', serif;
+    font-size: 10px;
+    padding: 3px 5px;
+  }
+
+  .value {
+    justify-self: center;
+    align-self: center;
+    grid-area: 7 / 3 / 12 / 7;
+    font-size: 25px;    
+    padding: 0 0 7px 0;
+  }
+
+  .more {
+    justify-self: center;
+    align-self: center;
+    grid-area: 12 / 5 / 14 / 7;
+    cursor: pointer;
+  }
+
+  .less {
+    justify-self: center;
+    align-self: center;
+    grid-area: 12 / 3 / 14 / 5;
+    cursor: pointer;
+  }
+
+  .text {
+    justify-self: center;
+    align-self: center;
+    grid-area: 1 / 1 / 3 / 9;
+    /* border: 1px solid;
+    padding: 0 10px; */
+  }
+
+  .cost {
+    justify-self: center;
+    align-self: center;
+    grid-area: 15 / 2 / 16 / 8;
+  }
+  
+  .strength {  
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 0.3fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-self: center;
+    grid-area: 2 / 2 / 15 / 10;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .dexterity {  display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 0.3fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 2 / 12 / 15 / 20;
+  }
+  
+  .constitution {  display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 0.3fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 2 / 22 / 15 / 30;
+  }
+  
+  .intelligence {  display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 0.3fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 2 / 32 / 15 / 40;
+  }
+    
+  .wisdom {  display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 0.3fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 2 / 42 / 15 / 50;
+  }
+  
+  .charisma {  display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 0.3fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 2 / 52 / 15 / 60;
+  }
+  
+  .remaining-points {
+    justify-self: center;
+    align-self: center;
+    grid-area: 21 / 20 / 24 / 42;
+    font-size: 23px;
+    padding: 10px 0;
+  }
+  
+  .number_remaining_points {
+    display: grid;
+    place-items: center;
+    grid-area: 24 / 28 / 28 / 34;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 25px;
+    padding: 5px 0 ;
+  }
+  
+  .instructions {
+    display: grid;
+    place-items: center;
+    grid-area: 30 / 2 / 38 / 60;
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+
+  img {
+    max-width: 90%;    
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 0 30px 0;
+  }
+
+  .image {
+    align-self: center;
+    width: 33%;
+  }
+  
+  .header .title {
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    font-size: 35px;
+  }
+  
+  .empty {
+    align-self: center;
+    width: 33%;
+  }
+ 
+
+  @media (max-width: 600px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .strength,
+    .dexterity,
+    .constitution,
+    .intelligence,
+    .wisdom,
+    .charisma {
+      grid-template-rows: repeat(17, 0.6fr);
+      margin-bottom: 20px;
+    }
+  
+    .remaining-points,
+    .number_remaining_points,
+    .instructions {
+      display: flex;
+      width: 75%;
+      justify-content: center;
+      align-self: center;    }
+
+    .header .title {
+      font-size: 18px;
+      align-self: center;
+    }
+
+    .image {
+      width: 100%;
+    }
+
+  }
+
+  @media (min-width: 600px) and (max-width: 1024px)
+   {
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* padding: 0 200px; */
+    }
+  
+    .strength,
+    .dexterity,
+    .constitution,
+    .intelligence,
+    .wisdom,
+    .charisma {
+      flex: 1 0 33.33%;
+      margin-bottom: 20px;
+    }
+
+    .remaining-points,
+    .number_remaining_points,
+    .instructions {
+      display: flex;
+      width: 75%;
+      justify-content: center;
+      align-self: center;
+    } 
+
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+    /* * {
+      transform: scale(1.1);
+    } */
+
+    .container {  
+      display: grid;
+      grid-template-columns: 20fr repeat(58, 2fr) 20fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      width: 100%;
+      height: 100%;
+    }
+
+    .button_roll {
+      font-size: 25px;
+    }
+
+    .more, 
+    .less {
+      font-size: 30px;
+    }
+
+    .text,
+    .cost {
+      font-size: 30px;
+      padding: 0 0 20px 0;
+    }
+
+    .header .title {
+      font-size: 30px;
+    }
+  
+    .value {
+      font-size: 60px;
+    }
+
+    .strength,
+    .dexterity,
+    .constitution,
+    .intelligence,
+    .wisdom,
+    .charisma {
+    /* grid-template-columns: repeat(8, 1fr); */
+    grid-template-rows: repeat(17, 0.25fr);
+    }
+
+    .remaining-points {
+      font-size: 35px;
+    }
+
+
+    .number_remaining_points {
+      font-size: 40px;
+    }
+
+
+    .instructions {
+      font-size: 25px;
+    } 
+
+    @media (min-width: 600px) and (max-width: 1311px)
+   {
+
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* padding: 0 200px; */
+    }
+  
+    .strength,
+    .dexterity,
+    .constitution,
+    .intelligence,
+    .wisdom,
+    .charisma {
+      flex: 1 0 33.33%;
+      margin-bottom: 10px;
+    }
+
+    .remaining-points,
+    .number_remaining_points,
+    .instructions {
+      display: flex;
+      width: 75%;
+      justify-content: center;
+      align-self: center;
+    } 
+
+    @media (max-width: 600px) {
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      .strength,
+      .dexterity,
+      .constitution,
+      .intelligence,
+      .wisdom,
+      .charisma {
+        grid-template-rows: repeat(17, 0.6fr);
+        margin-bottom: 20px;
+      }
+    
+      .remaining-points,
+      .number_remaining_points,
+      .instructions {
+        display: flex;
+        width: 75%;
+        justify-content: center;
+        align-self: center;    }
+  
+      .header .title {
+        font-size: 18px;
+        align-self: center;
+      }
+  
+      .image {
+        width: 100%;
+      }
+    }
+
+
+
+  }
+
+    @media (max-width: 600px) {
+
+      .header {
+        display: flex;
+        flex-direction: column;
+      }  
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .strength,
+    .dexterity,
+    .constitution,
+    .intelligence,
+    .wisdom,
+    .charisma {
+      grid-template-rows: repeat(17, 0.15fr);
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .remaining-points,
+    .number_remaining_points,
+    .instructions {
+      display: flex;
+      width: 75%;
+      justify-content: center;
+      align-self: center;    }
+
+    .header .title {
+      font-size: 25px;
+      align-self: center;
+    }
+
+    .image {
+      width: 100%;
+    }
+
+  }  
+  
+  }
+
