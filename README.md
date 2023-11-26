@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/media/logo.png" alt="Logo" width="80" height="80">
   </div>
 
 Benvenuto/a alla pagina del progetto di Java Script Basics per Start2Impact University!
