@@ -22,11 +22,11 @@ In questa personalizzazione del progetto iniziale ho operato i seguenti cambiame
 - al posto del valore iniziale di 0, ho impostato, per fini di game, un valore di 10.
 - anzichè avere un pulsante di reset, ho impostato un tasto che simula, con una funzione Java Script, il lancio di 3 dadi da 6, come previsto nella generazione delle caratteristiche di Dnd.
 
+A ogni tiro di dado, il risultato, con una funzione, ricade in un valore tra 8 e 15.
+
 Ho inoltre aggiunto la possibilità di avere il campo del valore aggiornato sia dopo il tiro dei dadi, sia dopo aver manipolato il valore con i tasti + e -.
 
 Nella generazione dei punteggi di caratteristica, una delle modalità permesse è avere un totale di 27 punti a disposizione e di disporli nella maniera che uno preferisce per caratterizzare il personaggio.
-
-A ogni tiro di dado, il risultato, con una funzione, ricade in un valore tra 8 e 15.
 
 A questi valori, le regole stabiliscono un costo, secondo la seguente tabella:
 - valore 8, costo 0
